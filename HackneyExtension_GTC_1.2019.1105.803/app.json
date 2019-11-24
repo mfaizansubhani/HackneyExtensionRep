@@ -1,0 +1,26 @@
+{
+  "id": "fc629955-479c-4fc2-9d1b-9985d228ecc5",
+  "name": "HackneyExtension",
+  "publisher": "GTC",
+  "brief": "",
+  "description": "",
+  "version": "1.2019.1105.803",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "14.0.29530.0",
+  "application": "14.0.29537.0",
+  "target": "Internal",
+  "showMyCode": true,
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 50099
+    }
+  ]
+}

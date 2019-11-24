@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="GTCExtension">
+    <body>
+      <group id="body">
+        <trans-unit id="Report 757021831 - ReportDataItem 1936001480 - Method 72583909 - NamedType 1683895367" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Please Specify a Date filter for the report</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Vendor Commissions Report - HT - ReportDataItem Vendor - Method OnPreDataItem - NamedType ljftext000</note>
+        </trans-unit>
+        <trans-unit id="Report 757021831 - ReportDataItem 1936001480 - Method 72583909 - NamedType 3206992144" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Please Specify a "Commission Batch Name" on the Options Tab</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Vendor Commissions Report - HT - ReportDataItem Vendor - Method OnPreDataItem - NamedType ljfText001</note>
+        </trans-unit>
+        <trans-unit id="Report 757021831 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Vendor Commissions Report - HT - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 757021831 - Control 2750767186 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Only Commissionable Details</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Vendor Commissions Report - HT - Control gblnCommDetailOnly - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 757021831 - Control 3910603329 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Payment Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Vendor Commissions Report - HT - Control gbol_Create_JnlLines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 757021831 - Control 1351566348 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Commission Journal Batch Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Vendor Commissions Report - HT - Control gcod_CommBatch - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 757021831 - Control 4135978138 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Page per Vendor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Vendor Commissions Report - HT - Control gbol_newpage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 757021831 - ReportLabel 329424276" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Commissions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Vendor Commissions Report - HT - ReportLabel Title</note>
+        </trans-unit>
+        <trans-unit id="Report 757021831 - ReportLabel 1136382962" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Vendor Commissions Report - HT - ReportLabel CMLOpen</note>
+        </trans-unit>
+        <trans-unit id="Report 757021831 - ReportLabel 3880453677" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Applied</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Vendor Commissions Report - HT - ReportLabel CMLDocApp</note>
+        </trans-unit>
+        <trans-unit id="Report 757021831 - ReportLabel 2249517761" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Invoice Amount:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Vendor Commissions Report - HT - ReportLabel TotalInvAmount</note>
+        </trans-unit>
+        <trans-unit id="Report 757021831 - ReportLabel 3851681255" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Credit Memo Amount:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Vendor Commissions Report - HT - ReportLabel TotalCrMemoAmount</note>
+        </trans-unit>
+        <trans-unit id="Report 757021831 - ReportLabel 1106308187" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Adjustment Amount:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Vendor Commissions Report - HT - ReportLabel TotalAdjAmount</note>
+        </trans-unit>
+        <trans-unit id="Report 757021831 - ReportLabel 588318770" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Amount:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Vendor Commissions Report - HT - ReportLabel TotalAmount</note>
+        </trans-unit>
+        <trans-unit id="Report 757021831 - ReportLabel 1957415040" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Commission to be Paid:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Vendor Commissions Report - HT - ReportLabel CommToBePaid</note>
+        </trans-unit>
+        <trans-unit id="Report 757021831 - ReportLabel 1085805345" size-unit="char" translate="yes" xml:space="preserve">
+          <source>REPORT TOTALS</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Vendor Commissions Report - HT - ReportLabel ReportTotals</note>
+        </trans-unit>
+        <trans-unit id="Report 504690404 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Driver Manifest</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Driver Manifest - HT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 504690404 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Driver Manifest - HT - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 504690404 - Control 474123622 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Number of Copies</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Driver Manifest - HT - Control NoCopies - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 504690404 - Control 4236019993 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print Source Doc. Comments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Driver Manifest - HT - Control gblnPrintSourceDocComm - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 504690404 - Control 1634166546 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print Source Ref. Doc. Comments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Driver Manifest - HT - Control gblnPrintSourceRefDocComm - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 504690404 - NamedType 2476940767" size-unit="char" translate="yes" xml:space="preserve">
+          <source>COPY</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Driver Manifest - HT - NamedType Text000</note>
+        </trans-unit>
+        <trans-unit id="Report 504690404 - NamedType 3375045948" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Driver Manifest - HT - NamedType Page_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 504690404 - NamedType 35837468" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Driver Manifest - HT - NamedType DateCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 504690404 - NamedType 236625392" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Run No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Driver Manifest - HT - NamedType Run_No_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 504690404 - NamedType 1835732828" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Carrier</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Driver Manifest - HT - NamedType CarrierCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 504690404 - NamedType 202522078" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DRIVER MANIFEST</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Driver Manifest - HT - NamedType DRIVER_MANIFESTCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 504690404 - NamedType 136590830" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Driver Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Driver Manifest - HT - NamedType Driver_NameCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 504690404 - NamedType 2112503742" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Distance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Driver Manifest - HT - NamedType Total_DistanceCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 504690404 - NamedType 3561617315" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Trailer No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Driver Manifest - HT - NamedType Logistics_Run_Header___Trailer_Reference_No__CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 504690404 - NamedType 3182595585" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Planned Arrival Date/Time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Driver Manifest - HT - NamedType Logistics_Run_Header___Planned_Arrival_DateTime_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 504690404 - NamedType 1848472327" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Planned Pickup Location</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Driver Manifest - HT - NamedType Logistics_Run_Header___Pickup_Location_Code_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 504690404 - NamedType 1107681180" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pickup Dock No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Driver Manifest - HT - NamedType Logistics_Run_Header___Pickup_Dock_No__CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 504690404 - NamedType 5907135" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Driver Manifest - HT - NamedType FORMAT_grecTEMPLogLine_Type_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 504690404 - NamedType 3284720422" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scheduled Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Driver Manifest - HT - NamedType grecTEMPLogLine__Appointment_Date_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 504690404 - NamedType 2495599037" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scheduled Time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Driver Manifest - HT - NamedType grecTEMPLogLine__Appointment_Time_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 504690404 - NamedType 2395284340" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Appointment No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Driver Manifest - HT - NamedType grecTEMPLogLine__Appointment_No__CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 504690404 - NamedType 143201355" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Actual Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Driver Manifest - HT - NamedType Actual_DateCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 504690404 - NamedType 1160043452" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Actual Time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Driver Manifest - HT - NamedType Actual_TimeCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 504690404 - NamedType 1123863086" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seal No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Driver Manifest - HT - NamedType gcodSealDisplayCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 504690404 - NamedType 2271713358" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Address</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Driver Manifest - HT - NamedType AddressCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 504690404 - NamedType 689524896" size-unit="char" translate="yes" xml:space="preserve">
+          <source>_______________</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Driver Manifest - HT - NamedType EmptyStringCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 504690404 - NamedType 23196785" size-unit="char" translate="yes" xml:space="preserve">
+          <source>_______________</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Driver Manifest - HT - NamedType EmptyStringCaption_Control1101769046Lbl</note>
+        </trans-unit>
+        <trans-unit id="Report 504690404 - NamedType 416706000" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Comments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Driver Manifest - HT - NamedType CommentsCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 504690404 - Method 3945568946 - NamedType 2569295527" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Can only view ocmments for unposted Source Ref. Documents.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Driver Manifest - HT - Method jfGetSourceRefDocComments - NamedType ljfText000</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1496902179 - Control 1364069073 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Member No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerCardExt - Control Member No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1496902179 - Control 4065320095 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Member Location</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerCardExt - Control Member Location - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1496902179 - Control 393688277 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Member DUNS No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerCardExt - Control Member DUNS No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1496902179 - Control 3332759289 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print on Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerCardExt - Control Print on Document - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1713901351 - Field 1364069073 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Member No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - Field Member No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1713901351 - Field 4065320095 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Member Location</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - Field Member Location - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1713901351 - Field 393688277 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Member DUNS No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - Field Member DUNS No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1713901351 - Field 3332759289 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print on Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CustomerExt - Field Print on Document - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
