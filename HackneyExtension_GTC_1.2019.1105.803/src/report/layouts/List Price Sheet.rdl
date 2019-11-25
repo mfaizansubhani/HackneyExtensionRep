@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
+    </DataSource>
+  </DataSources>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <Height>2in</Height>
+        <Style />
+      </Body>
+      <Width>6.5in</Width>
+      <Page>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <Code>Public Function BlankZero(ByVal Value As Decimal)
+    if Value = 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankPos(ByVal Value As Decimal)
+    if Value &gt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankZeroAndPos(ByVal Value As Decimal)
+    if Value &gt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNeg(ByVal Value As Decimal)
+    if Value &lt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNegAndZero(ByVal Value As Decimal)
+    if Value &lt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+</Code>
+  <Language>=User!Language</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>0eeb6585-38ae-40f1-885b-8d50088d51b4</rd:ReportID>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="ItemValue">
+          <DataField>ItemValue</DataField>
+        </Field>
+        <Field Name="ItemValBool">
+          <DataField>ItemValBool</DataField>
+        </Field>
+        <Field Name="MainTitle">
+          <DataField>MainTitle</DataField>
+        </Field>
+        <Field Name="FORMAT_TODAY_0_4_">
+          <DataField>FORMAT_TODAY_0_4_</DataField>
+        </Field>
+        <Field Name="TIME">
+          <DataField>TIME</DataField>
+        </Field>
+        <Field Name="CompanyInformation_Name">
+          <DataField>CompanyInformation_Name</DataField>
+        </Field>
+        <Field Name="CurrReport_PAGENO">
+          <DataField>CurrReport_PAGENO</DataField>
+        </Field>
+        <Field Name="USERID">
+          <DataField>USERID</DataField>
+        </Field>
+        <Field Name="SubTitle">
+          <DataField>SubTitle</DataField>
+        </Field>
+        <Field Name="SalesPrice_FIELDCAPTION__Currency_Code____________Currency_Code">
+          <DataField>SalesPrice_FIELDCAPTION__Currency_Code____________Currency_Code</DataField>
+        </Field>
+        <Field Name="CustPriceGr_TABLECAPTION__________CustPriceGrCode">
+          <DataField>CustPriceGr_TABLECAPTION__________CustPriceGrCode</DataField>
+        </Field>
+        <Field Name="All_Customers_">
+          <DataField>All_Customers_</DataField>
+        </Field>
+        <Field Name="Cust_TABLECAPTION__________CustNo">
+          <DataField>Cust_TABLECAPTION__________CustNo</DataField>
+        </Field>
+        <Field Name="Campaign_TABLECAPTION__________CampNo">
+          <DataField>Campaign_TABLECAPTION__________CampNo</DataField>
+        </Field>
+        <Field Name="Item_TABLECAPTION__________ItemFilter">
+          <DataField>Item_TABLECAPTION__________ItemFilter</DataField>
+        </Field>
+        <Field Name="Item__No__">
+          <DataField>Item__No__</DataField>
+        </Field>
+        <Field Name="Item_Description">
+          <DataField>Item_Description</DataField>
+        </Field>
+        <Field Name="Currency_Code">
+          <DataField>Currency_Code</DataField>
+        </Field>
+        <Field Name="ShowSalesType">
+          <DataField>ShowSalesType</DataField>
+        </Field>
+        <Field Name="CustPriceGrCode">
+          <DataField>CustPriceGrCode</DataField>
+        </Field>
+        <Field Name="CustNo">
+          <DataField>CustNo</DataField>
+        </Field>
+        <Field Name="ItemFilter">
+          <DataField>ItemFilter</DataField>
+        </Field>
+        <Field Name="CampNo">
+          <DataField>CampNo</DataField>
+        </Field>
+        <Field Name="Item_Variant_Filter">
+          <DataField>Item_Variant_Filter</DataField>
+        </Field>
+        <Field Name="CurrReport_PAGENOCaption">
+          <DataField>CurrReport_PAGENOCaption</DataField>
+        </Field>
+        <Field Name="Item_DescriptionCaption">
+          <DataField>Item_DescriptionCaption</DataField>
+        </Field>
+        <Field Name="Item__No__Caption">
+          <DataField>Item__No__Caption</DataField>
+        </Field>
+        <Field Name="Sales_Price__Unit_of_Measure_Code_Caption">
+          <DataField>Sales_Price__Unit_of_Measure_Code_Caption</DataField>
+        </Field>
+        <Field Name="Sales_Price__Variant_Code_Caption">
+          <DataField>Sales_Price__Variant_Code_Caption</DataField>
+        </Field>
+        <Field Name="Sales_Price__Minimum_Quantity_Caption">
+          <DataField>Sales_Price__Minimum_Quantity_Caption</DataField>
+        </Field>
+        <Field Name="Sales_Price__Unit_Price_Caption">
+          <DataField>Sales_Price__Unit_Price_Caption</DataField>
+        </Field>
+        <Field Name="Sales_Price__Starting_Date_Caption">
+          <DataField>Sales_Price__Starting_Date_Caption</DataField>
+        </Field>
+        <Field Name="Sales_Price__Ending_Date_Caption">
+          <DataField>Sales_Price__Ending_Date_Caption</DataField>
+        </Field>
+        <Field Name="Sales_Price__Unit_of_Measure_Code_">
+          <DataField>Sales_Price__Unit_of_Measure_Code_</DataField>
+        </Field>
+        <Field Name="Sales_Price__Variant_Code_">
+          <DataField>Sales_Price__Variant_Code_</DataField>
+        </Field>
+        <Field Name="Sales_Price__Minimum_Quantity_">
+          <DataField>Sales_Price__Minimum_Quantity_</DataField>
+        </Field>
+        <Field Name="Sales_Price__Minimum_Quantity_Format">
+          <DataField>Sales_Price__Minimum_Quantity_Format</DataField>
+        </Field>
+        <Field Name="Sales_Price__Unit_Price_">
+          <DataField>Sales_Price__Unit_Price_</DataField>
+        </Field>
+        <Field Name="Sales_Price__Unit_Price_Format">
+          <DataField>Sales_Price__Unit_Price_Format</DataField>
+        </Field>
+        <Field Name="Sales_Price__Starting_Date_">
+          <DataField>Sales_Price__Starting_Date_</DataField>
+        </Field>
+        <Field Name="Sales_Price__Ending_Date_">
+          <DataField>Sales_Price__Ending_Date_</DataField>
+        </Field>
+        <Field Name="Sales_Price_Item_No_">
+          <DataField>Sales_Price_Item_No_</DataField>
+        </Field>
+        <Field Name="Sales_Price_Sales_Type">
+          <DataField>Sales_Price_Sales_Type</DataField>
+        </Field>
+        <Field Name="Sales_Price_Sales_Code">
+          <DataField>Sales_Price_Sales_Code</DataField>
+        </Field>
+        <Field Name="Sales_Price_Currency_Code">
+          <DataField>Sales_Price_Currency_Code</DataField>
+        </Field>
+        <Field Name="AnySalesPriceFound_">
+          <DataField>AnySalesPriceFound_</DataField>
+        </Field>
+        <Field Name="SalesPriceDescription">
+          <DataField>SalesPriceDescription</DataField>
+        </Field>
+        <Field Name="PricePerUnit">
+          <DataField>PricePerUnit</DataField>
+        </Field>
+        <Field Name="PricePerUnitFormat">
+          <DataField>PricePerUnitFormat</DataField>
+        </Field>
+        <Field Name="BaseUOM">
+          <DataField>BaseUOM</DataField>
+        </Field>
+        <Field Name="BaseUOMFormat">
+          <DataField>BaseUOMFormat</DataField>
+        </Field>
+        <Field Name="Sales_Price___Unit_Price_">
+          <DataField>Sales_Price___Unit_Price_</DataField>
+        </Field>
+        <Field Name="Sales_Price___Unit_Price_Format">
+          <DataField>Sales_Price___Unit_Price_Format</DataField>
+        </Field>
+        <Field Name="Sales_Price___Unit_of_Measure_Code_">
+          <DataField>Sales_Price___Unit_of_Measure_Code_</DataField>
+        </Field>
+        <Field Name="NoSalesPrice_Number">
+          <DataField>NoSalesPrice_Number</DataField>
+        </Field>
+        <Field Name="SalesPriceItemNo">
+          <DataField>SalesPriceItemNo</DataField>
+        </Field>
+        <Field Name="SalesPriceDescriptionNo">
+          <DataField>SalesPriceDescriptionNo</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
+</Report>
