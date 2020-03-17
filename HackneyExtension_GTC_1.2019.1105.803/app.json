@@ -4,7 +4,7 @@
   "publisher": "GTC",
   "brief": "",
   "description": "",
-  "version": "1.2019.1105.806",
+  "version": "1.2019.1105.808",
   "privacyStatement": "",
   "EULA": "",
   "help": "",
@@ -17,6 +17,14 @@
   "application": "14.0.29537.0",
   "target": "Internal",
   "showMyCode": true,
+  "idRange":
+  {
+    "from": 50000,
+    "to": 50099
+  },
+  "features":[
+    "TranslationFile"
+   ],
   "runtime": "3.0"
  
  

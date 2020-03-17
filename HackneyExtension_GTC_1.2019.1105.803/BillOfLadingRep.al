@@ -19,7 +19,7 @@ report 50006 "Posted Whse. Shipment - HT"
     // RD62954ATC 20160919 - renumber Word Report Helper Functions
     // RD15608SHR 20181029 - Increase Address variables from 50 to 90
     RDLCLayout = './src/report/layouts/Posted Whse. Shipment (Word).rdlc';
-    WordLayout = './src/report/layouts/Posted Whse. Shipment (Word).docx';
+    WordLayout = './src/report/layouts/_Posted Whse. Shipment (Word).docx';
     UsageCategory = "ReportsAndAnalysis";
     ApplicationArea = All;
     Caption = 'Posted Whse. Shipment (Word) - HT';
@@ -30,7 +30,7 @@ report 50006 "Posted Whse. Shipment - HT"
     {
         dataitem(PostedWhseShipmentHeader; "Posted Whse. Shipment Header")
         {
-            DataItemTableView = SORTING("No.");
+            DataItemTableView = SORTING ("No.");
             RequestFilterFields = "No.";
 
             trigger OnAfterGetRecord()
@@ -74,11 +74,11 @@ report 50006 "Posted Whse. Shipment - HT"
         }
         dataitem(SourceDocument; "Posted Whse. Shipment Line")
         {
-            DataItemTableView = SORTING("No.", "Line No.");
+            DataItemTableView = SORTING ("No.", "Line No.");
             UseTemporary = true;
             dataitem(Labels; "Integer")
             {
-                DataItemTableView = SORTING(Number) WHERE(Number = CONST(1));
+                DataItemTableView = SORTING (Number) WHERE (Number = CONST (1));
                 MaxIteration = 1;
                 column(PhoneNo_CompanyLbl; CompanyInfoPhoneNoLbl)
                 {
@@ -203,8 +203,12 @@ report 50006 "Posted Whse. Shipment - HT"
             }
             dataitem(Company; "Integer")
             {
-                DataItemTableView = SORTING(Number) WHERE(Number = CONST(1));
+                DataItemTableView = SORTING (Number) WHERE (Number = CONST (1));
                 MaxIteration = 1;
+                column(CopyText; CopyText)
+                {
+
+                }
                 column(Address1_Company; gtxtCompanyAddress[1])
                 {
                 }
@@ -277,8 +281,8 @@ report 50006 "Posted Whse. Shipment - HT"
             }
             dataitem(Header; "Posted Whse. Shipment Header")
             {
-                DataItemLink = "No." = FIELD("No.");
-                DataItemTableView = SORTING("No.");
+                DataItemLink = "No." = FIELD ("No.");
+                DataItemTableView = SORTING ("No.");
                 UseTemporary = true;
                 column(CompanyName_Header; CompanyName)
                 {
@@ -510,9 +514,9 @@ report 50006 "Posted Whse. Shipment - HT"
             }
             dataitem(Line; "Posted Whse. Shipment Line")
             {
-                DataItemLink = "No." = FIELD("No."), "Source Type" = FIELD("Source Type"), "Source Subtype" = FIELD("Source Subtype"), "Source No." = FIELD("Source No.");
+                DataItemLink = "No." = FIELD ("No."), "Source Type" = FIELD ("Source Type"), "Source Subtype" = FIELD ("Source Subtype"), "Source No." = FIELD ("Source No.");
                 DataItemLinkReference = SourceDocument;
-                DataItemTableView = SORTING("Source Type", "Source Subtype", "Source No.", "Source Line No.");
+                DataItemTableView = SORTING ("Source Type", "Source Subtype", "Source No.", "Source Line No.");
                 UseTemporary = true;
                 column(ShelfNo_Line; "Shelf No.")
                 {
@@ -552,7 +556,7 @@ report 50006 "Posted Whse. Shipment - HT"
                 }
                 dataitem(ItemLine; Item)
                 {
-                    DataItemLink = "No." = FIELD("Item No.");
+                    DataItemLink = "No." = FIELD ("Item No.");
                     column(ItemCategoryCode_ItemLine; "Item Category Code")
                     {
                     }
@@ -568,7 +572,7 @@ report 50006 "Posted Whse. Shipment - HT"
                 }
                 dataitem(LotDetailLine; "Integer")
                 {
-                    DataItemTableView = SORTING(Number) WHERE(Number = FILTER(> 0));
+                    DataItemTableView = SORTING (Number) WHERE (Number = FILTER (> 0));
                     column(LotCaption_LotDetailLine; gtxtLotDetail)
                     {
                     }
@@ -589,7 +593,7 @@ report 50006 "Posted Whse. Shipment - HT"
                 }
                 dataitem(LotDetailVerticalShowLine; "Integer")
                 {
-                    DataItemTableView = SORTING(Number);
+                    DataItemTableView = SORTING (Number);
                     column(LotCaption_LotDetailVerticalShowLine; gtxtLotDetail)
                     {
                     }
@@ -667,7 +671,7 @@ report 50006 "Posted Whse. Shipment - HT"
             dataitem(CommentLine; "Warehouse Comment Line")
             {
                 DataItemLinkReference = SourceDocument;
-                DataItemTableView = SORTING("Table Name", Type, "No.", "Line No.");
+                DataItemTableView = SORTING ("Table Name", Type, "No.", "Line No.");
                 UseTemporary = true;
                 column(Comment_CommentLine; CommentLine.Comment)
                 {
@@ -675,7 +679,7 @@ report 50006 "Posted Whse. Shipment - HT"
             }
             dataitem(Totals; "Integer")
             {
-                DataItemTableView = SORTING(Number);
+                DataItemTableView = SORTING (Number);
                 MaxIteration = 1;
                 column(TotalNetWeight_Totals; HelperFunctions.rdBlankZeroDecimalWithFormat(gdecTotalNetWeight, '<Precision,2:2><Standard Format,0>'))
                 {
@@ -884,6 +888,7 @@ report 50006 "Posted Whse. Shipment - HT"
     end;
 
     var
+        CopyText: Text[30];
         Location: Record Location;
         CurrReportPAGENOCaptionLbl: Label 'Page';
         WarehousePostedShipmentCaptionLbl: Label 'Warehouse Posted Shipment';
@@ -950,6 +955,11 @@ report 50006 "Posted Whse. Shipment - HT"
         else
             if Location.Code <> LocationCode then
                 Location.Get(LocationCode);
+    end;
+
+    procedure SetCopyText(pCopyText: Text[20])
+    begin
+        CopyText := pCopyText;
     end;
 
     local procedure rdGetGetLotNo(): Text[30]
